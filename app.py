@@ -1,3 +1,6 @@
+from flask import Flask, jsonify, request
+app = Flask(__name__)
+
 @app.route('/student/profile')
 def get_student_profile():
     return jsonify({
