@@ -6,9 +6,9 @@ app = Flask(__name__)
 students = [
     {
         "id": 1,
-        "name": "Your Name",
-        "grade": 10,
-        "section": "Zechariah",
+        "name": "Jasper Rey",
+        "grade": BSIT3,
+        "section": "Stallman",
         "age": 15,
         "height": 165,  # in cm
         "weight": 55    # in kg
