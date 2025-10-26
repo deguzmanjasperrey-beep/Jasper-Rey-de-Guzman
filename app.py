@@ -7,7 +7,7 @@ students = [
     {
         "id": 1,
         "name": "Jasper Rey",
-        "grade": BSIT3,
+        "grade": 3,
         "section": "Stallman",
         "age": 15,
         "height": 165,  # in cm
