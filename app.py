@@ -5,16 +5,6 @@ app = Flask(__name__)
 def home():
     return "Welcome to my Flask API!"
 
-@app.route('/student')
-def get_student():
-    return jsonify({
-        "name": "Jasper Rey de Guzman",
-        "grade": bsit3,
-        "section": "Stallman",
-        "height": 165,  # in cm
-        "weight": 55    # in kg
-    })
-
 @app.route('/student/<name>')
 def get_student_details(name):
     # Sample student data
